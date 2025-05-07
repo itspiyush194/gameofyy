@@ -12,7 +12,7 @@ const Mind= () => {
           fetchData()
         }, [])
         const backHandeling = ()=>{
-          navigate('/home')
+          navigate('/')
       }
   return (
    <>

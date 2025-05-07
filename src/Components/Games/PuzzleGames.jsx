@@ -13,7 +13,7 @@ const PuzzleGames = () => {
             fetchData()
           }, [])
           const backHandeling = ()=>{
-            navigate('/home')
+            navigate('/')
         }
   return (
     <>

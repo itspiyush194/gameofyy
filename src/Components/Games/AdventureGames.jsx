@@ -12,7 +12,7 @@ const AdventureGames = () => {
         fetchData()
       }, [])
       const backHandeling = ()=>{
-        navigate('/home')
+        navigate('/')
     }
   return (
     <>

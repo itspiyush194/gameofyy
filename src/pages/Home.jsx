@@ -21,18 +21,18 @@ const Home = () => {
 
   console.log(isAuth,savedPass,savedUser)
 
-  useEffect(() => {
+  // useEffect(() => {
    
 
-    // If not authenticated or credentials are wrong, redirect to login
-    if (
-      !isAuth ||
-      savedUser !== "Piyush" ||
-      savedPass !== "12345"
-    ) {
-      navigate("/");
-    }
-  }, []);
+  //   // If not authenticated or credentials are wrong, redirect to login
+  //   if (
+  //     !isAuth ||
+  //     savedUser !== "Piyush" ||
+  //     savedPass !== "12345"
+  //   ) {
+  //     navigate("/");
+  //   }
+  // }, []);
 
   return (
     <>
