@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+     background-image: url('/main.jpg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+}
+@media (max-width: 640px) {
+    #main {
+      background-image: url('/main1.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
